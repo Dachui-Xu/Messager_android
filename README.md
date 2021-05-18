@@ -3,7 +3,9 @@
 ## Fuction  
 实现简单的信息发送的功能，可以在一个界面输入一个文本，在另一个页面显示出来；也可以启动手机中其他的app发送文本信息。  
 ### operation interface  
-<img src="https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png" height="330" width="190" >  
+<div align="center">
+<img src="https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png" height="330" width="190" > 
+   </div>
 第一种情况：App内信息传送  
 <div align="center">
 <img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
@@ -16,7 +18,8 @@
 <img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
 <img src="https://ftp.bmp.ovh/imgs/2021/05/5874a36e2c0b7d2c.png" height="330" width="190" >
 <img src="https://ftp.bmp.ovh/imgs/2021/05/e52c522de6577dcd.png" height="330" width="190" >
-  </div>
+  </div>  
+  
 切换两种方案的代码：
 ```
     public void onSendMessage( android.view.View button ){
