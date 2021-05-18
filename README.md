@@ -3,16 +3,20 @@
 ## Fuction  
 实现简单的信息发送的功能，可以在一个界面输入一个文本，在另一个页面显示出来；也可以启动手机中其他的app发送文本信息。  
 ### operation interface  
-![界面首页](https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png =400×300)  
+<img src="https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png" height="330" width="190" >  
 第一种情况：App内信息传送  
-![初始界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png =400×300)
-![输入界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png =400×300)
- ![另一个Activity接收信息](https://ftp.bmp.ovh/imgs/2021/05/c4b7680c9f26b7d8.png=400×300)
-第二种情况：启动其他App
-![初始界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png=400×300)
-![输入界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png=400×300)
-![选择启动app](https://ftp.bmp.ovh/imgs/2021/05/5874a36e2c0b7d2c.png=400×300)
-![选择message](https://ftp.bmp.ovh/imgs/2021/05/e52c522de6577dcd.png=400×300)
+<div align="center">
+<img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
+<img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
+<img src="https://ftp.bmp.ovh/imgs/2021/05/c4b7680c9f26b7d8.png" height="330" width="190" >
+  </div>
+第二种情况：启动其他App  
+ <div align="center">
+<img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
+<img src="https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png" height="330" width="190" >
+<img src="https://ftp.bmp.ovh/imgs/2021/05/5874a36e2c0b7d2c.png" height="330" width="190" >
+<img src="https://ftp.bmp.ovh/imgs/2021/05/e52c522de6577dcd.png" height="330" width="190" >
+  </div>
 切换两种方案的代码：
 ```
     public void onSendMessage( android.view.View button ){
