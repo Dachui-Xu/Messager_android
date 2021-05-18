@@ -3,7 +3,7 @@
 ## Fuction  
 实现简单的信息发送的功能，可以在一个界面输入一个文本，在另一个页面显示出来；也可以启动手机中其他的app发送文本信息。  
 ### operation interface  
-![界面首页](https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png)  
+![界面首页](https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png=400*300)  
 第一种情况：App内信息传送  
 ![初始界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png)
 ![输入界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png)
@@ -14,7 +14,7 @@
 ![选择启动app](https://ftp.bmp.ovh/imgs/2021/05/5874a36e2c0b7d2c.png)
 ![选择message](https://ftp.bmp.ovh/imgs/2021/05/e52c522de6577dcd.png)
 切换两种方案的代码：
-‘’‘
+```
     public void onSendMessage( android.view.View button ){
         //TODO跳转
         //获得编辑框的引用
@@ -34,6 +34,6 @@
         startActivity(intent);
     }
 }
-’‘’
-主要利用的核心代码是‘intent.putExtra(“key”,data);’
+```
+主要利用的核心代码是`intent.putExtra(“key”,data);`
 **putExtra("A", B)**方法中，AB为键值对，第一个参数为键名，第二个参数为键对应的值，这个值才是真正要传递的数据。
