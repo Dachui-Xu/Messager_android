@@ -3,7 +3,7 @@
 ## Fuction  
 实现简单的信息发送的功能，可以在一个界面输入一个文本，在另一个页面显示出来；也可以启动手机中其他的app发送文本信息。  
 ### operation interface  
-![界面首页](https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png=400*300)  
+![界面首页](https://ftp.bmp.ovh/imgs/2021/05/b8a60aeee21a04b0.png=400x300)  
 第一种情况：App内信息传送  
 ![初始界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png)
 ![输入界面](https://ftp.bmp.ovh/imgs/2021/05/9e47cf4dd7080f42.png)
